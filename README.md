@@ -1,2 +1,2 @@
 # Imagemin-GUI
-An Imagemin using Proton which looks like ImageOptim
+An Imagemin UI using Proton which looks like ImageOptim
