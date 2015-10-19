@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photon</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/imagemin-ui.css">
+  </head>
+  <body>
+    <div class="window">
+
+      <!-- .toolbar-header sits at the top of your app -->
+      <header class="toolbar toolbar-header">
+        <h1 class="title">Image Minifier</h1>
+      </header>
+
+      <!-- Your app's content goes inside .window-content -->
+      <div class="window-content">
+        <span class="icon icon-download blank-state" id="blank-state"></span>
+
+        <table class="table-striped" id="results"></table>
+      </div>
+
+      <footer class="toolbar toolbar-footer">
+        <div class="toolbar-actions">
+          <p>
+            <button class="btn btn-default btn-large pull-left" id="choose"><span class="icon icon-folder"></span></button>
+            <!-- Saved TOTAL_SAVED amount out of TOTAL_SIZE, AVERAGE_PERCENT per file on average (up to MAX_PERCENT) -->
+            Drag and drop images onto the area above
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/getFiles.js" charset="utf-8"></script>
+    <script src="js/interface.js" charset="utf-8"></script>
+  </body>
+</html>
